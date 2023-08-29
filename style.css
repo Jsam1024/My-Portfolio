@@ -315,4 +315,7 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #323946;
+    flex-wrap: wrap;
+    padding: 20px 40px;
 }
