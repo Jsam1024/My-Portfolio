@@ -335,3 +335,9 @@ span{
 #footer .arrow a:hover{
     box-shadow: 0 0 10px #0ef;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 912px) {
+}
