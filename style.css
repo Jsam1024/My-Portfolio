@@ -303,11 +303,16 @@ span{
 #contact .ccvv:hover{
     box-shadow: none;
 }
-
 #contact textarea{
     resize: none;
 }
-
 #contact input{
     width: 49%;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
