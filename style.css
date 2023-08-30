@@ -26,10 +26,10 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: red;
+    background-color: #1f242d;
 }
 .logo{
-    font-size: 19px;
+    font-size: 25px;
     color: #fff;
     cursor: default;
     text-decoration: none;
@@ -51,7 +51,8 @@ div, section{
     border: 1px solid #fff;
 }
 #menu-icon {
-    font-size: 3.6rem;
+    font-size: 45px;
+    padding: 0;
     color: #fff;
     display: none;
 }
@@ -336,8 +337,25 @@ span{
     box-shadow: 0 0 10px #0ef;
 }
 
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 912px) {
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        border: 1px solid #fff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #1f242d;
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        margin: 40px 0;
+    }
 }
