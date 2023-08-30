@@ -42,3 +42,6 @@ window.onscroll = () => {
 
 
 };
+
+
+ /*----------scroll reveal-----------*/
