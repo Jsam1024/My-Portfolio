@@ -47,7 +47,7 @@ window.onscroll = () => {
  /*----------scroll reveal-----------*/
 
  ScrollReveal({
-    reset: true,
+    // reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200
@@ -57,4 +57,7 @@ ScrollReveal().reveal('.tsri, h2', { origin: 'top' });
 ScrollReveal().reveal('.image, .container, .pbox, form', { origin: 'bottom' });
 ScrollReveal().reveal('.tsri h1, #about img', { origin: 'left' });
 ScrollReveal().reveal('.tsri p, #about p', { origin: 'right' });
+
+
+/*----------typed js-----------*/
 

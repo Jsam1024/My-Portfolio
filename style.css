@@ -82,6 +82,18 @@ span{
 }
 #first img{
     width: 400px;
+    animation: swingImage 4s ease-in-out infinite;
+}
+@keyframes swingImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .socials a{
