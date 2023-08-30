@@ -54,3 +54,7 @@ window.onscroll = () => {
 });
 
 ScrollReveal().reveal('.tsri, h2', { origin: 'top' });
+ScrollReveal().reveal('.image, .container, .pbox, form', { origin: 'bottom' });
+ScrollReveal().reveal('.tsri h1, #about img', { origin: 'left' });
+ScrollReveal().reveal('.tsri p, #about p', { origin: 'right' });
+
