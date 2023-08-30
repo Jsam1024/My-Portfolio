@@ -53,4 +53,4 @@ window.onscroll = () => {
     delay: 200
 });
 
-ScrollReveal().reveal('.tsri', { origin: 'top' });
+ScrollReveal().reveal('.tsri, h2', { origin: 'top' });
