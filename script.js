@@ -47,7 +47,7 @@ window.onscroll = () => {
  /*----------scroll reveal-----------*/
 
  ScrollReveal({
-    // reset: true,
+    reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200
@@ -60,4 +60,11 @@ ScrollReveal().reveal('.tsri p, #about p', { origin: 'right' });
 
 
 /*----------typed js-----------*/
+const typed = new Typed('.ittext', {
+    strings: ['Frontend Developer', 'Web Architect', 'Virtual Assistant'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
 
