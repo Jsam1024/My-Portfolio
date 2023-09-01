@@ -66,14 +66,14 @@ div, section{
 }
 
 .tsri h3{
-    font-size: 30px;
+    font-size: 35px;
 }
 span{
     color: #0ef;
 }
 .tsri h1{
     font-size: 40px;
-    line-height: 55px;
+    margin-bottom: 10px;
 }
 .tsri p{
     font-size: 15px;
@@ -82,6 +82,7 @@ span{
 }
 #first img{
     width: 400px;
+    padding-bottom: 30px;
     animation: swingImage 4s ease-in-out infinite;
 }
 @keyframes swingImage {
@@ -334,7 +335,6 @@ span{
     justify-content: space-between;
     align-items: center;
     background-color: #323946;
-    flex-wrap: wrap;
     padding: 20px 40px;
 }
 
@@ -355,6 +355,9 @@ span{
 }
 
 @media screen and (max-width: 450px) {
+    div{
+        border: 20px solid green;
+    }
     #menu-icon{
         display: block;
     }
@@ -379,6 +382,14 @@ span{
         display: block;
         
     }
+    .tsri h3{
+        font-size: 25px;
+    }
+    .tsri h1{
+        font-size: 30px;
+    }
+
+
     #about{
         flex-direction: column-reverse;
     }
@@ -394,5 +405,13 @@ span{
 
     #contact input{
         width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 912px){
+    div{
+        border: 2px red solid;
     }
 }
