@@ -376,5 +376,6 @@ span{
     }
     #first{
         display: block;
+        padding: 0;
     }
 }
