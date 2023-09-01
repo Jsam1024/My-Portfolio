@@ -388,14 +388,45 @@ span{
     .tsri h1{
         font-size: 30px;
     }
+    .tsri p{
+        font-size: 14px;
+    }
+    #first img{
+        width: 380px;
+    }
 
 
     #about{
         flex-direction: column-reverse;
     }
+    #about h2{
+        font-size: 35px;
+    }
+    #about h3{
+        font-size: 25px;
+    }
+    #about p{
+        font-size: 14px;
+    }
+    #about img{
+        width: 380px;
+    }
 
+
+    #services h2{
+        font-size: 35px;
+    }
     .container{
         flex-direction: column;
+    }
+    .cbox h3{
+        font-size: 25px;
+    }
+    .cbox p{
+        font-size: 14px;
+    }
+    .cbox i{
+        font-size: 45px;
     }
 
     .pbox{
