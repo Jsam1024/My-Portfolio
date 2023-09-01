@@ -303,6 +303,10 @@ span{
     margin: 10px 0;
 }
 
+#contact input{
+    width: 49%;
+}
+
 #contact .ccvv{
     width: initial;
     text-decoration: none;
@@ -322,9 +326,6 @@ span{
 }
 #contact textarea{
     resize: none;
-}
-#contact input{
-    width: 49%;
 }
 
 
@@ -353,7 +354,7 @@ span{
     box-shadow: 0 0 10px #0ef;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 450px) {
     #menu-icon{
         display: block;
     }
@@ -376,6 +377,22 @@ span{
     }
     #first{
         display: block;
-        padding: 0;
+        
+    }
+    #about{
+        flex-direction: column-reverse;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .pbox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact input{
+        width: 100%;
     }
 }
