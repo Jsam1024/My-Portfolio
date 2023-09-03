@@ -81,7 +81,7 @@ span{
 }
 #first img{
     width: 400px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     animation: swingImage 4s ease-in-out infinite;
 }
 @keyframes swingImage {
@@ -359,7 +359,7 @@ span{
     box-shadow: 0 0 10px #0ef;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     div{
         border: 20px solid green;
     }
@@ -467,8 +467,43 @@ span{
 
 }
 
-@media screen and (max-width: 912px){
+@media screen and (max-width: 912px) and (min-width: 601px){
     div{
         border: 2px red solid;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        border: 1px solid #fff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #1f242d;
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        margin: 40px 0;
+    }
+    #first{
+        display: block;
+        
+    }
+
+    #about{
+        flex-direction: column-reverse;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .pbox{
+        display: flex;
+        flex-direction: column;
     }
 }
