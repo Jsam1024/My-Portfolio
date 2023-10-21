@@ -46,9 +46,7 @@ section{
 #header{
     border: 1px solid #fff;
 }
-div, section{
-    border: 1px solid #fff;
-}
+
 #menu-icon {
     font-size: 45px;
     padding: 0;
