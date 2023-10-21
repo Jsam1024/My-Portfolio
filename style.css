@@ -368,6 +368,7 @@ span{
     box-shadow: 0 0 10px #0ef;
 }
 
+
 @media screen and (max-width: 600px) {
     div{
         border: 20px solid green;
