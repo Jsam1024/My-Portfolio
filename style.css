@@ -43,9 +43,7 @@ section{
 .navbar a:hover, .navbar a.home {
     color: #0ef;
 }
-#header{
-    border: 1px solid #fff;
-}
+
 
 #menu-icon {
     font-size: 45px;
