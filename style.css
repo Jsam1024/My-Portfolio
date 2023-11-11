@@ -371,9 +371,6 @@ span{
 
 
 @media screen and (max-width: 600px) {
-    div{
-        border: 20px solid green;
-    }
     #menu-icon{
         display: block;
     }
