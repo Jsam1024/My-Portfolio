@@ -406,7 +406,6 @@ span{
         width: 380px;
     }
 
-
     #about{
         flex-direction: column-reverse;
     }
@@ -422,7 +421,6 @@ span{
     #about img{
         width: 380px;
     }
-
 
     #services h2{
         font-size: 35px;
