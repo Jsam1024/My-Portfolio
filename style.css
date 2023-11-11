@@ -475,7 +475,6 @@ span{
         display: block;
     }
     .navbar{
-        border: 1px solid #fff;
         position: absolute;
         top: 100%;
         left: 0;
