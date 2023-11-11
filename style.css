@@ -479,9 +479,6 @@ span{
 }
 
 @media screen and (max-width: 912px) and (min-width: 601px){
-    div{
-        border: 2px red solid;
-    }
     #menu-icon{
         display: block;
     }
