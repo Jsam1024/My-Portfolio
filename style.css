@@ -343,7 +343,7 @@ span{
     justify-content: space-between;
     align-items: center;
     background-color: #323946;
-    padding: 20px 40px;
+    padding: 20px 30px;
 }
 
 #footer .text{
@@ -372,7 +372,7 @@ span{
         top: 100%;
         left: 0;
         width: 100%;
-        padding: 10px 20px;
+        padding: 10px 30px;
         background-color: #1f242d;
         display: none;
     }
@@ -412,7 +412,7 @@ span{
         font-size: 14px;
     }
     #about img{
-        width: 330px;
+        width: 300px;
     }
 
     #services h2{
