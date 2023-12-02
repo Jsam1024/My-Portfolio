@@ -384,7 +384,7 @@ span{
         margin: 40px 0;
     }
     #first{
-        display: block;
+        flex-direction: column;
     }
     .tsri h3{
         font-size: 25px;
@@ -485,8 +485,7 @@ span{
         margin: 40px 0;
     }
     #first{
-        display: block;
-        
+        flex-direction: column;  
     }
 
     #about{
