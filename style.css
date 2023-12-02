@@ -12,7 +12,9 @@ body{
     background-color: #1f242d;
     color: #fff;
 }
-
+section{
+    min-height: 100vh;
+}
 
 #header{
     width: 100%;
@@ -361,7 +363,7 @@ span{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     #menu-icon{
         display: block;
     }
