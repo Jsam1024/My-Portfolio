@@ -12,9 +12,7 @@ body{
     background-color: #1f242d;
     color: #fff;
 }
-section{
-    min-height: 100vh;
-}
+
 
 #header{
     width: 100%;
