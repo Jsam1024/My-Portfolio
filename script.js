@@ -62,7 +62,7 @@ ScrollReveal().reveal('.tsri p, #about p', { origin: 'right' });
 
 /*----------typed js-----------*/
 const typed = new Typed('.ittext', {
-    strings: ['Frontend Developer', 'Web Architect', 'Virtual Assistant'],
+    strings: ['Frontend Developer', 'Web Architect'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
